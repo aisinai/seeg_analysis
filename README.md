@@ -6,7 +6,7 @@
   journal={arXiv preprint arXiv:1802.04431},
   year={2018}
   
- **Content:
+ **Content:**
  
   This repo contains a data pre-processing jupyter notebook that guides the user in converting EEG files from an EDF format into scaled, standardized numpy arrays that are easily ingested into the LSTM framework.
   
@@ -16,7 +16,7 @@
   
   A de-identified sample EEG recording (full EDF file) for demonstrative purposes is available at: https://drive.google.com/drive/folders/13Oy5ZjePZQaUpAYVMdvXfwrcOMxbZa7M?usp=sharing
   
-  **Instructions for Use:
+  **Instructions for Use:**
   
   Clone the repo:
 
