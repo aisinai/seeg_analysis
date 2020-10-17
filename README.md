@@ -6,7 +6,7 @@
   journal={arXiv preprint arXiv:1802.04431},
   year={2018}
   
- Content:
+ **Content:
  
   This repo contains a data pre-processing jupyter notebook that guides the user in converting EEG files from an EDF format into scaled, standardized numpy arrays that are easily ingested into the LSTM framework.
   
@@ -16,12 +16,14 @@
   
   A de-identified sample EEG recording (full EDF file) for demonstrative purposes is available at: https://drive.google.com/drive/folders/13Oy5ZjePZQaUpAYVMdvXfwrcOMxbZa7M?usp=sharing
   
-  Instructions for Use:
+  **Instructions for Use:
   
   Clone the repo:
+
 git clone https://github.com/aisinai/seeg_analysis && cd LSTM
 
   Install dependencies using Python 3.6+ (a virutal environment is recommended here):
+
 pip install -r requirements.txt
 
 Additional details for setup and troubleshooting may be found at: https://github.com/khundman/telemanom/blob/master/README.md
@@ -37,6 +39,7 @@ Additional details for setup and troubleshooting may be found at: https://github
   Pre-split training and test sets must be placed in directories named data/train/ and data/test in the 'LSTM' folder. One .npy file should be generated for each channel or stream (for both train and test) with shape (n_timesteps, n_inputs).
   
   Enter the virtual environment created above (with the dependencies specified in the requirements.txt installed) and start processing each of the data channels with the following command:
+   
    python run.py
    
  Each time the system is started a unique datetime ID will be used to create a results file (in results/) that details the sequence positions of the identified anomalous sequences and related information. In addition, a data subdirectory containing data files for created models, predictions, and smoothed errors for each channel. A file called params.log is also created that contains parameter settings and logging output during processing.
