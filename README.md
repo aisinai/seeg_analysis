@@ -19,10 +19,10 @@
   **Instructions for Use:**
   
   Clone the repo:
-  \git clone https://github.com/aisinai/seeg_analysis && cd LSTM\
+  `git clone https://github.com/aisinai/seeg_analysis && cd LSTM`
 
   Install dependencies using Python 3.6+ (a virutal environment is recommended here):
-  \pip install -r requirements.txt\
+  `pip install -r requirements.txt`
 
 Additional details for setup and troubleshooting may be found at: https://github.com/khundman/telemanom/blob/master/README.md
 
@@ -38,7 +38,7 @@ Additional details for setup and troubleshooting may be found at: https://github
   
   Enter the virtual environment created above (with the dependencies specified in the requirements.txt installed) and start processing each of the data channels with the following command:
    
-   \python run.py\
+   `python run.py`
    
  Each time the system is started a unique datetime ID will be used to create a results file (in results/) that details the sequence positions of the identified anomalous sequences and related information. In addition, a data subdirectory containing data files for created models, predictions, and smoothed errors for each channel. A file called params.log is also created that contains parameter settings and logging output during processing.
  
