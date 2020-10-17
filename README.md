@@ -1,12 +1,12 @@
-# seeg_analysis
- This repo contains the materials needed to process electroencephalographic (EEG) data into a format that is compatible with the unsupervised Telemanom LSTM framework created by:
+# SEEG Analysis
+ **This repo contains the materials needed to process electroencephalographic (EEG) data into a format that is compatible with the unsupervised Telemanom LSTM framework created by:**
  
  title={Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding},
   author={Hundman, Kyle and Constantinou, Valentino and Laporte, Christopher and Colwell, Ian and Soderstrom, Tom},
   journal={arXiv preprint arXiv:1802.04431},
   year={2018}
   
- **Content:**
+ ##**Content:**
  
   This repo contains a data pre-processing jupyter notebook that guides the user in converting EEG files from an EDF format into scaled, standardized numpy arrays that are easily ingested into the LSTM framework.
   
@@ -16,7 +16,7 @@
   
   A de-identified sample EEG recording (full EDF file) for demonstrative purposes is available at: https://drive.google.com/drive/folders/13Oy5ZjePZQaUpAYVMdvXfwrcOMxbZa7M?usp=sharing
   
-  **Instructions for Use:**
+  ##**Instructions for Use:**
   
   Clone the repo:
   `git clone https://github.com/aisinai/seeg_analysis && cd LSTM`
